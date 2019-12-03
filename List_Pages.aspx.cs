@@ -25,9 +25,9 @@ namespace Final_Project
             {
                 pages_result.InnerHtml += "<div class=\"list item\">";
                 string pageid = row["pageid"];
-                string ListofArticles = "<a href =\"ShowPage.aspx?pageid=" + pageid + "\">" + row["pagetitle"] + "</a>" 
-                    + "<div>" + row["pagebody"] + "</div>" 
-                    + "<a href =\"EditArticle.aspx?pageid=" + pageid + "\">Edit</a>";
+                string ListofArticles = "<a href =\"ShowPage.aspx?pageid=" + pageid + "\">" + row["pagetitle"] + "</a>"
+                    + "<div>" + row["pagebody"] + "</div>"
+                    + "<div><a href =\"ShowPage.aspx?pageid=" + pageid + "\">" + "Edit" + "</a></div>"
                 pages_result.InnerHtml += "<div class=\"col2\">" + ListofArticles + "</div>";
                 string QuickNavigation = "<a href =\"ShowPage.aspx?pageid=" + pageid + "\">" + row["pagetitle"] +"</a>";
                 quick_nav.InnerHtml += "<div>" + QuickNavigation + "</div>";
