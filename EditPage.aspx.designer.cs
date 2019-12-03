@@ -11,7 +11,7 @@ namespace Final_Project
 {
 
 
-    public partial class EditArticle
+    public partial class EditPage
     {
     }
 }

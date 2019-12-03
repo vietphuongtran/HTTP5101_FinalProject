@@ -7,7 +7,7 @@
         <div id="sql_debugger" runat="server"></div>
     </div>
     <div>
-        <a href="NewArticle.aspx">New article</a>
+        <a href="NewPage.aspx">New article</a>
     </div>
     <div class="_table" runat="server">
         <div class="listitem">

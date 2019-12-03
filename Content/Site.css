@@ -19,6 +19,7 @@ body {
 Each column should be 45.45% wide with a gutter space of 9.09%
 */
 
+/*body formatting*/
 .col2 {
     width: 60%;
     float: left;
@@ -32,14 +33,13 @@ Each column should be 45.45% wide with a gutter space of 9.09%
     clear: both;
     margin-top: 5%;
 }
-
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+#add_pagetitle, #add_pagebody {
+    width: 700px;
+    margin: 50px 20px;
 }
-
+#add_pagebody {
+    height: 700px;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

@@ -11,25 +11,25 @@ namespace Final_Project
 {
 
 
-    public partial class NewArticle
+    public partial class NewPage
     {
 
         /// <summary>
-        /// pagetitle control.
+        /// add_pagetitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pagetitle;
+        protected global::System.Web.UI.WebControls.TextBox add_pagetitle;
 
         /// <summary>
-        /// pagebody control.
+        /// add_pagebody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pagebody;
+        protected global::System.Web.UI.WebControls.TextBox add_pagebody;
     }
 }
