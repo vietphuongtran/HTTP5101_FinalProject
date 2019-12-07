@@ -2,7 +2,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background: url(img/6548.jpg);
+    font-size: 16px;
 }
 
 /* Wrapping element */
@@ -34,8 +34,8 @@ Each column should be 45.45% wide with a gutter space of 9.09%
     margin-top: 5%;
 }
 #add_pagetitle, #add_pagebody {
-    width: 700px;
-    margin: 50px 20px;
+width: 700px;
+margin: 50px 20px;
 }
 #add_pagebody {
     height: 700px;

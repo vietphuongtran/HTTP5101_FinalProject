@@ -11,34 +11,34 @@ namespace Final_Project
 {
 
 
-    public partial class NewPage
+    public partial class List_Authors
     {
 
         /// <summary>
-        /// add_pagetitle control.
+        /// author_search control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_pagetitle;
+        protected global::System.Web.UI.WebControls.TextBox author_search;
 
         /// <summary>
-        /// add_pagebody control.
+        /// sql_debugger control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_pagebody;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger;
 
         /// <summary>
-        /// add_authorid control.
+        /// authors_result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_authorid;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl authors_result;
     }
 }

@@ -14,7 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link rel="stylesheet" type="text/css" href="/Content/style.css" />
 </head>
 <body>
     <form runat="server">
@@ -51,8 +51,9 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Become a reporter</a></li>
+                        <li><a runat="server" href="~/List_Pages.aspx">Articles</a></li>
+                        <li><a runat="server" href="~/List_Authors">Authors</a></li>
+                        <li><a runat="server" href="~/Contact">Join us</a></li>
                     </ul>
                 </div>
             </div>

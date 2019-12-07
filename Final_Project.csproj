@@ -129,7 +129,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EditAuthor.aspx" />
     <Content Include="EditPage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -143,6 +145,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="List_Authors.aspx" />
     <Content Include="List_Pages.aspx" />
     <Content Include="NewPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -173,6 +176,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ShowAuthor.aspx" />
     <Content Include="ShowPage.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
@@ -190,6 +194,7 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Authors.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,6 +209,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditAuthor.aspx.cs">
+      <DependentUpon>EditAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAuthor.aspx.designer.cs">
+      <DependentUpon>EditAuthor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditPage.aspx.cs">
       <DependentUpon>EditPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,6 +227,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HTTP_Page.cs" />
+    <Compile Include="List_Authors.aspx.cs">
+      <DependentUpon>List_Authors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="List_Authors.aspx.designer.cs">
+      <DependentUpon>List_Authors.aspx</DependentUpon>
+    </Compile>
     <Compile Include="List_Pages.aspx.cs">
       <DependentUpon>List_Pages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -231,6 +250,13 @@
     </Compile>
     <Compile Include="Pagedb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowAuthor.aspx.cs">
+      <DependentUpon>ShowAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowAuthor.aspx.designer.cs">
+      <DependentUpon>ShowAuthor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ShowPage.aspx.cs">
       <DependentUpon>ShowPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,6 +289,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="img\" />
+    <Folder Include="MySql_Database\" />
+    <Folder Include="Wireframe\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

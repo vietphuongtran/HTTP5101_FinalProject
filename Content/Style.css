@@ -1,0 +1,107 @@
+﻿b /* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+h1, h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-bar {
+    background: url(img/daily-bugle-tt-desktop.png);
+}
+
+/*
+Each column should be 45.45% wide with a gutter space of 9.09%
+*/
+
+/*body formatting*/
+/*Code created by Christine Bittle, modified by Paul Tran*/
+.col2 {
+    width: 60%;
+    float: left;
+    margin-right: 9.09%;
+    margin-top: 2%;
+}
+/*
+Each column should be 29.76% wide with a gutter space of 5.35%
+*/
+.col3 {
+    width: 29.76%;
+    float: left;
+    margin-right: 5.35%;
+}
+
+.col3last {
+    width: 29.76%;
+    float: left;
+    margin-right: 0;
+}
+
+#side-nav {
+    margin-top: 5%;
+}
+
+#footer {
+    clear: both;
+    margin-top: 10%;
+}
+
+/*#MainContent_add_pagetitle, #MainContent_add_pagebody {
+    width: 700px;
+    margin: 50px 20px;
+    background-color: lightgrey;
+    text-shadow: 2px;
+}
+
+#MainContent_add_pagebody {
+    height: 500px;
+    margin: 20px 20px
+}*/
+#search {
+    margin-top:5%;
+}
+.input_pagetitle, .input_pagebody {
+    width: 700px;
+    margin: 5% 25%;
+    background-color: lightgrey;
+    text-shadow: 2px;
+    text-align: center;
+}
+.input_pagebody {
+    height: 500px;
+    width: 1170px;
+    margin-left: 0;
+}
+#MainContent_show_pagetitle {
+    margin: 1em;
+    font-weight: bold;
+    text-align: center;
+    font-size:25px;
+}
+#MainContent_show_pagebody {
+    font-size: 20px;
+}
+button {
+    margin-left: 45%;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}

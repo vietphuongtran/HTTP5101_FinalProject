@@ -11,7 +11,7 @@ namespace Final_Project
     {
         private string Pagetitle;
         private string Pagebody;
-        private DateTime Pagedate;
+        public int Authorid;
         public string GetPagetitle()
         {
             return Pagetitle;
@@ -19,6 +19,10 @@ namespace Final_Project
         public string GetPagebody()
         {
             return Pagebody;
+        }
+        public int GetAuthorid()
+        {
+            return Authorid;
         }
         /*public string GetPagedate()
         {
@@ -34,10 +38,9 @@ namespace Final_Project
         {
             Pagebody = value;
         }
-        public void SetPagedate(DateTime value)
+        public void SetAuthorid(int value)
         {
-
-            Pagedate = value;
+            Authorid = value;
         }
     }
 }

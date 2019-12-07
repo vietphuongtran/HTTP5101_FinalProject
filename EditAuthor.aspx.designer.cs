@@ -11,52 +11,61 @@ namespace Final_Project
 {
 
 
-    public partial class List_Pages
+    public partial class EditAuthor
     {
 
         /// <summary>
-        /// page_search control.
+        /// show_authorfullname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox page_search;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorfullname;
 
         /// <summary>
-        /// sql_debugger control.
+        /// show_authorfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorfname;
 
         /// <summary>
-        /// pages_result control.
+        /// edit_authorfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pages_result;
+        protected global::System.Web.UI.WebControls.TextBox edit_authorfname;
 
         /// <summary>
-        /// authors control.
+        /// show_authorlname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl authors;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorlname;
 
         /// <summary>
-        /// quick_nav control.
+        /// edit_authorlname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl quick_nav;
+        protected global::System.Web.UI.WebControls.TextBox edit_authorlname;
+
+        /// <summary>
+        /// editauthor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl editauthor;
     }
 }

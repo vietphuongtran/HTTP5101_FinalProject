@@ -11,34 +11,43 @@ namespace Final_Project
 {
 
 
-    public partial class NewPage
+    public partial class ShowAuthor
     {
 
         /// <summary>
-        /// add_pagetitle control.
+        /// show_authorfullname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_pagetitle;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorfullname;
 
         /// <summary>
-        /// add_pagebody control.
+        /// show_authorfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_pagebody;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorfname;
 
         /// <summary>
-        /// add_authorid control.
+        /// show_authorlname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox add_authorid;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_authorlname;
+
+        /// <summary>
+        /// show_author_article control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl show_author_article;
     }
 }
